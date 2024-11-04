@@ -80,7 +80,7 @@
     /* ------------  End Header  ---------- */
     /* ------------  Start Section Panel  ---------- */
     .panel {
-        height: 65vh;
+        min-height: 65vh;
     }
 
     /* ------------  End Section Panel  ---------- */
