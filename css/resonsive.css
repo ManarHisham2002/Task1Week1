@@ -1,0 +1,312 @@
+/* Mobile */
+@media (max-width: 768px) {
+
+    /* ------------  Start Global Rules  ---------- */
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+
+    /* ------------  End Global Rules  ---------- */
+    /* ------------  Start Components  ---------- */
+    .content {
+        padding: 0 25px;
+    }
+
+    .main {
+        text-align: center;
+        top: 25%;
+        left: 0;
+        padding: 0 5px;
+    }
+
+    .main h2 {
+        font-size: 40px;
+        width: auto;
+        margin-bottom: 45px;
+    }
+
+    .main p {
+        font-size: 16px;
+        width: auto;
+        padding: 0 5px;
+        margin-bottom: 45px;
+    }
+
+    .side {
+        display: block;
+        text-align: center;
+    }
+
+    .side .left {
+        padding: 10px 0;
+
+    }
+
+    .side .right {
+        margin: 15px 0;
+    }
+
+    .title {
+        width: auto;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card .card-items {
+        padding-bottom: 20px;
+    }
+
+    /* ------------  End Components  ---------- */
+    /* ------------  Start Header  ---------- */
+    header .content {
+        height: 90px;
+    }
+
+    header .menu {
+        margin: auto;
+        display: flex;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    /* ------------  End Header  ---------- */
+    /* ------------  Start Section Panel  ---------- */
+    .panel {
+        height: 65vh;
+    }
+
+    /* ------------  End Section Panel  ---------- */
+    /* ------------  Start Section South  ---------- */
+    .south .side .right img {
+        width: 100%;
+    }
+
+    /* ------------  End Section South  ---------- */
+    /* ------------  Start Section Power  ---------- */
+    .power {
+        text-align: center;
+    }
+
+    .power .main {
+        top: 18%;
+    }
+
+    /* ------------  End Section Power  ---------- */
+    /* ------------  Start Section Repairs  ---------- */
+    .repairs .main {
+        border-radius: 0;
+        padding: 40px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .repairs .main p {
+        padding: 0 0 10px 0;
+    }
+
+    /* ------------  End Section Repairs  ---------- */
+    /* ------------  Start Section Energy  ---------- */
+    .energy .left .icon-energy {
+        margin-left: 20px;
+    }
+
+    .energy .side .right {
+        display: block;
+    }
+
+    /* ------------  End Section Energy  ---------- */
+    /* ------------  Start Section Values  ---------- */
+    .values .card-items p {
+        margin-bottom: 0;
+    }
+
+    /* ------------  End Section Values  ---------- */
+    /* ------------  Start Section Say-WOC  ---------- */
+    .say-woc .left .icon-energy {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .say-woc .about-woc {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .say-woc .about-woc-saying h3 {
+        width: 100%;
+        font-size: 21px;
+    }
+
+    .say-woc .about-woc-person {
+        display: block;
+    }
+
+    .say-woc .about-woc-person .person img {
+        margin-right: 15px;
+    }
+
+    .say-woc .about-woc-person .person .person-info .person-work {
+        font-size: 14px;
+    }
+
+    .say-woc .about-woc-person .direction i {
+        margin-top: 25px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer .side {
+        padding-top: 30px;
+    }
+
+    footer .side .left {
+        text-align: left;
+    }
+
+    footer .left ul li {
+        font-size: 13px;
+    }
+
+    footer .right .search-component {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    footer .right .search-bar {
+        margin: 20px 0 0 0;
+    }
+
+    footer .copyRight {
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    footer .copyRight:last-child {
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* ------------  Start Components  ---------- */
+    .content {
+        padding: 0 45px;
+    }
+
+    .main {
+        left: 10%;
+    }
+
+    .side {
+        display: block;
+    }
+
+    .title {
+        width: auto;
+    }
+
+    /* ------------  End Components  ---------- */
+    /* ------------  Start Header  ---------- */
+    header .links li a {
+        padding: 40px 23px;
+    }
+
+    /* ------------  End Header  ---------- */
+    /* ------------  Start Section Panel  ---------- */
+    .panel {
+        height: 85vh;
+    }
+
+    /* ------------  End Section Panel  ---------- */
+    /* ------------  Start Section South  ---------- */
+    .south .side {
+        display: grid;
+        width: 100%;
+        padding: 35px 0 20px 0;
+    }
+
+    .south .side .right {
+        margin: auto;
+    }
+
+    .south .side .right img {
+        width: 100%;
+    }
+
+    /* ------------  End Section South  ---------- */
+    /* ------------  Start Section Repairs  ---------- */
+    .repairs .main {
+        width: 90%;
+    }
+
+    /* ------------  End Section Repairs  ---------- */
+    /* ------------  Start Section Say-WOC  ---------- */
+
+    .say-woc .left .icon-energy {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .say-woc .about-woc {
+        width: 95%;
+    }
+
+    /* ------------  End Section Say-WOC  ---------- */
+    /* ------------  Start Footer  ---------- */
+    footer {
+        height: auto;
+    }
+
+    footer .side {
+        width: 100%;
+        padding-top: 35px;
+    }
+
+    footer .side .left {
+        text-align: left;
+    }
+
+    footer .left ul li {
+        font-size: 13px;
+        padding-left: 0;
+    }
+
+    footer .right {
+        margin: auto;
+    }
+
+    footer .right .search-component {
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+
+    footer .right .search-bar {
+        margin: 20px 0 0 0;
+    }
+
+    footer .copyRight {
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    footer .copyRight:last-child {
+        text-align: center;
+    }
+
+    /* ------------  End Section Footer  ---------- */
+}
