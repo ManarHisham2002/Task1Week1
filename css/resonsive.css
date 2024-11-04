@@ -9,9 +9,7 @@
     p {
         margin-bottom: 30px;
     }
-buttun {
-    margin: 0 3px 0 0;
-}
+
     /* ------------  End Global Rules  ---------- */
     /* ------------  Start Components  ---------- */
     .content {
@@ -82,7 +80,7 @@ buttun {
     /* ------------  End Header  ---------- */
     /* ------------  Start Section Panel  ---------- */
     .panel {
-/*         height: 70vh; */
+        height: 70vh;
     }
 
     /* ------------  End Section Panel  ---------- */
