@@ -9,7 +9,9 @@
     p {
         margin-bottom: 30px;
     }
-
+buttun {
+    margin: 0 3px 0 0;
+}
     /* ------------  End Global Rules  ---------- */
     /* ------------  Start Components  ---------- */
     .content {
